@@ -1,0 +1,32 @@
+.main-home{
+    padding: 40px 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bg);
+}
+.main-home .home-image{
+    margin-top: 70px;
+}
+.main-home .home-image img{
+    height: 400px;
+    width: 600px;
+}
+.main-home .home-head-text h1{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media only screen  and (max-width:790px){
+
+    .main-home{
+        padding: 40px 90px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--bg);
+    }
+
+}

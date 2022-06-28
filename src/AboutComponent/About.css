@@ -1,0 +1,37 @@
+.main-about{
+    padding-right: 120px ;
+    padding-left: 120px;
+    padding-top: 80px;
+    
+}
+.main-about .common-about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    gap: 70px;
+
+}
+ .common-about .content .text-about h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+   
+}
+.common-about .content .text-about p{
+    width: 90%;
+    color: var(--gray);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+@media only screen  and (max-width:890px){
+    .common-about .content .text-about p{
+   width: 100%;
+        
+    }
+    .main-about .common-about{
+        gap: 40px;
+    }
+}
